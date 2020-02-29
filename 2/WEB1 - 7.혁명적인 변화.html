@@ -1,0 +1,37 @@
+<h1>HTML</h1>
+Hypertext Markup Language (HTML) is the standard markup language for<br> <strong>creating <u>web</u> pages</strong> and web applications.
+
+
+
+<h1 class="logo"><a tabindex="2" accesskey="1" href="/"><img src="/2008/site/images/logo-w3c-mobile-lg" width="90" height="53" alt="W3C" /></a>
+
+<h1>W3C</h1>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+1. <h1></h1> 태그
+h는 heading의 약자로, 제목이라고 생각하면 된다. h1부터 h6까지 존재하며, h1이 가장 중요한 제목으로 글씨가 가장 크게 나타난다.
+h1 태그를 사용하는 것과 글씨 폰트를 크게 만드는 것 사이에는 엄청난 차이가 있다. 왜냐하면 검색엔진은 제목과 같은 것을 기준으로 검색하기 때문이다!
+
+
+<h1 align="center">Animals</h1>
+코드를 다음과 같이 변경시켜주면, Animals 라는 글자를 중앙에 위치시킬 수 있다. 즉, 가운데정렬 속성 정도로 받아들이면 된다.
+
+2. <u></u>
+<u> 태그는 underline의 약자로 밑줄을 긋는 태그이다.
+
+3. <meta>
+이처럼 동물에 대한 설명을 HTML 문서로 담으려고 한다. 하지만 크롬에서는 정상 작동하나, 익스플로러에서는 글자가 깨져서 나오게 된다.
+이런 문제가 발생하는 이유는, HTML 문서를 UTF-8로 인코딩했는데 익스플로러는 다른 방식으로 디코딩 하기 때문이다. 따라서 HTML 파일에 어떤 방식으로 인코딩을 했는지 명시해줘야 한다.
+
+* 인코딩에 대해 좀 더 자세히 알고 싶으면, 이 포스팅을 참고하세요.
+https://blog.naver.com/pjok1122/221505713248
+HTML 코드에 <meta charset="UTF-8">을 추가해보자.
+
+[출처] https://blog.naver.com/pjok1122/221515499483
+HTML 기초 문법, 태그 (<h1>, <u>, <meta>)|작성자 pjok1122
